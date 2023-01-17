@@ -24,6 +24,8 @@ However the results were not that satisfactory . This was because median filteri
 
 To further remove the concrete like pattern and amplify the difference between the classes , we decided to use the morphological operations . After experimenting with morphological operations opening and closing on the dataset , it was found that single iteration of opening operation with a 3x3 kernel was found to be suitable for our dataset . Opening is a morphological operation in which first erosion and then dilation occus on the image , and is used to remove the small pixels of noise while preserving the foreground bigger subjects . It gave satisfactory results on our dataset .
 
+![image](https://user-images.githubusercontent.com/86561124/212850087-8b97e31d-291a-4be3-aaa5-39f5a3569513.png)
+
 ### Grayscaling the Images :
 
 We separated the R, G and B channels of the images and observe them . There wasn't any significant difference in the R,G and B layers of the images , hence we decided that converting the images to grayscale won't cause loss to any feature set of our dataset , and instead boost the speed of our procedure by around 3x (since the neural network would have to now deal with 1 layer instead of 3 and hence would have to deal with 3 times less numbers approximately , hence having promisingly faster computation speed . 
