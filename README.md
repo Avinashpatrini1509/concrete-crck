@@ -28,7 +28,7 @@ To further remove the concrete like pattern and amplify the difference between t
 
 ### Grayscaling the Images :
 
-We separated the R, G and B channels of the images and observe them . There wasn't any significant difference in the R,G and B layers of the images , hence we decided that converting the images to grayscale won't cause loss to any feature set of our dataset , and instead boost the speed of our procedure by around 3x (since the neural network would have to now deal with 1 layer instead of 3 and hence would have to deal with 3 times less numbers approximately , hence having promisingly faster computation speed . 
+We separated the R, G and B channels of the images and observe them . There wasn't any significant difference in the R,G and B layers of the images , hence we decided that converting the images to grayscale won't cause loss to any feature set of our dataset , and instead __boost the speed of our procedure by around 3x__ (since the neural network would have to now deal with 1 layer instead of 3 and hence would have to deal with 3 times less numbers approximately , hence having promisingly faster computation speed . 
 
 ### Data Augmentation :
 
@@ -37,6 +37,8 @@ Since our dataset is small , and is image based , hence we decided to use data a
 We also decided to __vary the brightness__ by very less amount of around 10% , since the dataset did not have huge difference in contrast and brightness . 
 
 Soon we were able to increase our dataset from 300 examples per class to ???? examples per class . 
+
+#todo insert image of few images and their augmentations 
 
 ### The Machine Learning Modelling part 
 
