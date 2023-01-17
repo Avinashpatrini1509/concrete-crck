@@ -35,6 +35,11 @@ Soon we were able to increase our dataset from 300 examples per class to ???? ex
 
 Since our dataset consists of images , we were able to choose few ML algorithms as per our requirements . After a bit of analysis of work done in this field from reading research papers , we were able to eliminate down to a few architectures that would be able to perform well on our dataset . Since the problem statement itself said that transfer learning models would be appreciatable , hence we decided to use __Transfer Learning__ instead of training custom architecture models for our dataset . 
 
+![image](https://user-images.githubusercontent.com/86561124/212847014-ba8d53bb-3237-4005-9d4d-74619bf87133.png)
+![image](https://user-images.githubusercontent.com/86561124/212847083-aeee27c1-64d3-4f33-a18a-2dbe2f7f15e8.png)
+
+
+
 We experimented ourselves with __ResNet__ architecture and __VGG16__ based architectures , and after the experiment , we found out that VGG16 model performed better than the ResNet Model . Hence we decided to __use VGG16 architecture__ for our final predictions . 
 
 ## The Dataset :
