@@ -8,6 +8,8 @@ This repositor is an entry for "PS-1 , Concrete Crack detection"  L&T EduTech Ha
 
 Our model has achieved a perfect F1 score of 1 . To know more read along 
 
+#todo insert the confusion matrix here .
+
 ## Our methodology - 
 
 ### Bilateral Filtering : 
