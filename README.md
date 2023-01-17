@@ -15,6 +15,9 @@ After manual data exploration and analysis of the images , it was found that the
 
 However the results were not that satisfactory . This was because median filtering does not preserve edges , and the crucial differenciating factor in our dataset are the crack edges . After studying a bit , we observed that __Bilateral Filtering__ preserves the edges as well as gets rid of salt and pepper like noises with some tradeoff as compared to the median filter , hence this was selected . It gave satisfactory results on our dataset . 
 
+![image](https://user-images.githubusercontent.com/86561124/212848270-09c036ab-bb05-4093-a25d-fa4fb6ef8e11.png)
+
+
 ### Opening Operation (Morphological operation) : 
 
 To further remove the concrete like pattern and amplify the difference between the classes , we decided to use the morphological operations . After experimenting with morphological operations opening and closing on the dataset , it was found that single iteration of opening operation with a 3x3 kernel was found to be suitable for our dataset . Opening is a morphological operation in which first erosion and then dilation occus on the image , and is used to remove the small pixels of noise while preserving the foreground bigger subjects . It gave satisfactory results on our dataset .
