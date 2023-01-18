@@ -23,7 +23,7 @@ However the results were not that satisfactory . This was because median filteri
 
 ### Opening Operation (Morphological operation) : 
 
-To further remove the concrete like pattern and amplify the difference between the classes , we decided to use the morphological operations . After experimenting with morphological operations opening and closing on the dataset , it was found that single iteration of opening operation with a 3x3 kernel was found to be suitable for our dataset . Opening is a morphological operation in which first erosion and then dilation occus on the image , and is used to remove the small pixels of noise while preserving the foreground bigger subjects . It gave satisfactory results on our dataset .
+To further remove the concrete like pattern and amplify the difference between the classes , we decided to use the morphological operations . After experimenting with morphological operations opening and closing on the dataset , it was found that single iteration of opening operation with a 3x3 kernel was found to be suitable for our dataset . Opening is a morphological operation in which first erosion and then dilation occus on the image , and is used to remove the small pixels of noise while preserving the foreground bigger subjects . But On our dataset, Doing morphological operations resulted in loosing of crictical information and hence we finally decided against it.
 
 ![image](https://user-images.githubusercontent.com/86561124/212850087-8b97e31d-291a-4be3-aaa5-39f5a3569513.png)
 
@@ -39,7 +39,9 @@ We also decided to __vary the brightness__ by very less amount of around 10% , s
 
 Soon we were able to increase our dataset from 300 examples per class to 3000 examples per class . 
 
-#todo insert image of few images and their augmentations 
+![IMG_0482_1_15](https://user-images.githubusercontent.com/75925792/213257537-0a6eda35-6952-4e40-bf37-009c72108d84.jpg)
+![Positive_original_IMG_0482_1_15 jpg_8d0f2cbd-e68f-4b0b-b337-930e26cf7bb5](https://user-images.githubusercontent.com/75925792/213257626-324827fb-e0ab-4d98-80a7-0d6f79b9f715.jpg)
+ 
 
 ### The Machine Learning Modelling part 
 
