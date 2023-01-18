@@ -8,7 +8,8 @@ This repositor is an entry for "PS-1 , Concrete Crack detection"  L&T EduTech Ha
 
 Our model has achieved a perfect F1 score of 1 . To know more read along 
 
-#todo insert the confusion matrix here .
+<img width="764" alt="image" src="https://user-images.githubusercontent.com/75925792/213254881-30ef6b02-49de-4984-b0f2-3bcc3bb59225.png">
+
 
 ## Our methodology - 
 
