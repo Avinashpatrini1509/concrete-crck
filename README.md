@@ -23,7 +23,7 @@ However the results were not that satisfactory . This was because median filteri
 
 ### Opening Operation (Morphological operation) : 
 
-To further remove the concrete like pattern and amplify the difference between the classes , we decided to use the morphological operations . After experimenting with morphological operations opening and closing on the dataset , it was found that single iteration of opening operation with a 3x3 kernel was found to be suitable for our dataset . Opening is a morphological operation in which first erosion and then dilation occus on the image , and is used to remove the small pixels of noise while preserving the foreground bigger subjects . But On our dataset, Doing morphological operations resulted in loosing of crictical information and hence we finally decided against it.
+To further remove the concrete like pattern and amplify the difference between the classes , we decided to use the morphological operations . After experimenting with morphological operations opening and closing on the dataset , it was found that single iteration of opening operation with a 3x3 kernel was found to be suitable for our dataset . Opening is a morphological operation in which first erosion and then dilation occus on the image , and is used to remove the small pixels of noise while preserving the foreground bigger subjects .The dialation due to morphological operations sometimes resulted in lost of critical information and hence, we finally decided against employing it.
 
 ![image](https://user-images.githubusercontent.com/86561124/212850087-8b97e31d-291a-4be3-aaa5-39f5a3569513.png)
 
