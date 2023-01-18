@@ -36,7 +36,7 @@ Since our dataset is small , and is image based , hence we decided to use data a
 
 We also decided to __vary the brightness__ by very less amount of around 10% , since the dataset did not have huge difference in contrast and brightness . 
 
-Soon we were able to increase our dataset from 300 examples per class to ???? examples per class . 
+Soon we were able to increase our dataset from 300 examples per class to 3000 examples per class . 
 
 #todo insert image of few images and their augmentations 
 
