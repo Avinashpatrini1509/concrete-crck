@@ -49,7 +49,7 @@ Since our dataset consists of images , we were able to choose few ML algorithms 
 
 
 
-We experimented ourselves with __ResNet__ architecture and __VGG16__ based architectures , and after the experiment , we found out that VGG16 model performed better than the ResNet Model . Hence we decided to __use VGG16 architecture__ for our final predictions . 
+We experimented ourselves with __ResNet__ architecture and __VGG16__ based architectures , and after the experiment , we found out that ResNet model performed better than the VGG16 Model . Hence we decided to __use ResNet architecture__ for our final predictions . 
 
 ## The Dataset :
 
